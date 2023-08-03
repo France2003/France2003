@@ -1,0 +1,79 @@
+body{
+    background-image:url("https://wallpaperaccess.com/full/5927911.gif");
+    background-size: cover;
+    /* display: grid;
+    place-self: center; */
+}
+.login-box{
+    position: relative;
+    top: -70%;
+    left: 45%;
+    max-width: 400px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: rgba(32, 214, 255, 0.862);
+    backdrop-filter: blur(10px);
+    z-index: -5;
+    text-align: center;
+}
+label{
+    position: relative;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-align: right;
+    left: -850px;
+}
+::placeholder{
+    text-align: left;
+}
+input {
+    position: relative;
+    text-align: right;
+    left: 600px;
+    width: 16%;
+    height: 9px;
+    padding: 10px;
+    border: 1px solid rgb(253, 24, 24);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    background-color: #FFA15F;
+    width: 17%;
+    height: 40px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: grid;
+}
+/* @media  and (max-width: 600px) {
+    .login-box{
+        max-width: 300px;
+    }
+} */
+
+.login-link{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.login-link a{
+    color: rgb(236, 21, 21);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: bold;
+    width: 10%;
+    position: relative;
+    text-align: right;
+    left: 535px;
+}
+.login-link .space{
+    margin:  90px;
+}

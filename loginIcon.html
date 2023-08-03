@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Dangnhaptaikhoan</title>
+    <link rel="stylesheet" href="loginIcon.css">
+    <script src="https://kit.fontawesome.com/10dfeb6bc7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="login-box">
+    <h1 style="text-align: center; color: red">LOGIN</h1>
+</div>
+<section>
+    <div class="login">
+        <label for="fuse">Usename</label>
+        <input type="text" id="fuse" name="fuse" placeholder="Gmail or SDT" style="text-align: left;">
+        <label for="fpass">PassWord</label>
+        <input type="password"id="fpass" name="fpass" placeholder="Password" style="text-align: left;" >
+        <input id="check" type="checkbox" style="width: 1%; height: 20px;">
+    </div>
+    <div class="Sign"> </br>
+        <input style="font-family: Poppins, sans-serif; font-size: 16px; font-weight: 600; text-align: center;"  id="chay" type="submit" value="Login">
+    </div>
+    <div class="login-link">
+        <a href="#"> Forget Passwork</a>
+        <span class="Space"></span>
+        <a href="file:///C:/HTML/Login/SignUp.html">Sign Up</a>
+    </div>
+</section>
+<script>
+    check.onclick = HienThiPass;
+    function HienThiPass() {
+        if (check.checked) fpass.type = "text";
+        else fpass.type = "password";
+    }
+    var use = document.getElementById("fuse");
+    var pass = document.getElementById("fpass");
+    var sign = document.getElementById("chay");
+    if(use === "phapcv" && pass==="30072003"){
+        alert("Đăng nhập thành công");
+        window.location.href="icon.html";
+    }
+    sign.click();
+    // var login=true;
+    // if(login) {
+    //     window.location.href="icon.html";
+    // }
+    // file:///C:/HTML/Login/Loginn.html
+</script>
+</body>
+</html>
